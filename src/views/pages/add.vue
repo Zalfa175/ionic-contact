@@ -22,7 +22,7 @@
                     <ion-list>
                         
                         <ion-item>
-                            <ion-input label="Nama" label-placement="floating" placeholder="Masukkan Nama"></ion-input>
+                            <ion-input label="Nama" v-model="name" label-placement="floating" placeholder="Masukkan Nama"></ion-input>
                         </ion-item>
                         
                         <ion-item>

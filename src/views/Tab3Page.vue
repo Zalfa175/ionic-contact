@@ -15,7 +15,7 @@
       </ion-header>
 
       <ion-list>
-        <ion-item @click="" class="ion-activable ripple-parent">
+        <ion-item @click="toState" class="ion-activable ripple-parent">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-label>
             <p>State</p>
@@ -23,7 +23,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item @click="" class="ion-activable ripple-parent">
+        <ion-item @click="toiterator" class="ion-activable ripple-parent">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-label>
             <p>Iterator => v-for</p>
@@ -31,7 +31,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item @click="" class="ion-activable ripple-parent">
+        <ion-item @click="toIf" class="ion-activable ripple-parent">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-label>
             <p>If Statement - v-if</p>
@@ -39,7 +39,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item @click="" class="ion-activable ripple-parent">
+        <ion-item @click="toModel" class="ion-activable ripple-parent">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-label>
             <p>Model - Two Binding - v-if</p>
@@ -47,7 +47,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item @click="" class="ion-activable ripple-parent">
+        <ion-item @click="toEvent" class="ion-activable ripple-parent">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-label>
             <p>Event</p>
@@ -55,7 +55,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item @click="" class="ion-activable ripple-parent">
+        <ion-item @click="tolifecycle" class="ion-activable ripple-parent">
           <ion-ripple-effect></ion-ripple-effect>
           <ion-label>
             <p>Lifecycle</p>
@@ -73,6 +73,12 @@ import { useRouter } from "vue-router";
 
 const router = useRouter()
 
+const toEvent = () => router.push({ path: '/vue/event'})
+const toIf = () => router.push({ path: '/vue/if'})
+const toState = () => router.push({ path: '/vue/state'})
+const toModel = () => router.push({ path: '/vue/model'})
+const toiterator = () => router.push({ path: '/vue/iterator'})
+const tolifecycle = () => router.push({ path: '/vue/lifecycle'})
 </script>
 
 <style></style>

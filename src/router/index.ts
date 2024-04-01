@@ -15,12 +15,12 @@ const routes: Array<RouteRecordRaw> = [
       { path: 'tab3', component: () => import('@/views/Tab3Page.vue') }
     ]
   },
-  { path: '/vue/state',component:() => import('../views/vue-basic-faeture/state.vue')},
-  { path: '/vue/if',component:() => import('../views/vue-basic-faeture/if.vue')},
-  { path: '/vue/event',component:() => import('../views/vue-basic-faeture/event.vue')},
-  { path: '/vue/iterator',component:() => import('../views/vue-basic-faeture/iterator.vue')},
-  { path: '/vue/model',component:() => import('../views/vue-basic-faeture/model.vue')},
-  { path: '/vue/lifecycle',component:() => import('../views/vue-basic-faeture/lifecycle.vue')},
+  { path: '/vue/state',component:() => import('../views/vue-basic-feature/state.vue')},
+  { path: '/vue/if',component:() => import('../views/vue-basic-feature/if.vue')},
+  { path: '/vue/event',component:() => import('../views/vue-basic-feature/event.vue')},
+  { path: '/vue/iterator',component:() => import('../views/vue-basic-feature/iterator.vue')},
+  { path: '/vue/model',component:() => import('../views/vue-basic-feature/model.vue')},
+  { path: '/vue/lifecycle',component:() => import('../views/vue-basic-feature/lifecycle.vue')},
 ]
 
 const router = createRouter({
