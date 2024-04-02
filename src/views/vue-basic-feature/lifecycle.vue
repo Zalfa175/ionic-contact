@@ -32,6 +32,7 @@ import { useRouter } from "vue-router";
 import { arrowBackOutline } from "ionicons/icons";
 
 const router = useRouter()
+const name = ref('')
 
 const back = () => {
     router.back()
