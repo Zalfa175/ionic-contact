@@ -32,7 +32,7 @@
 </template>
 
 <script setup>
-import { ref, onMouted, onActivated, onUpdated, onUnmounted } from "vue";
+import { ref, onMounted, onActivated, onUpdated, onUnmounted } from "vue";
 import { useRouter } from "vue-router";
 import { arrowBackOutline } from "ionicons/icons";
 
